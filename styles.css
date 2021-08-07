@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 img{
     width: 100%;
     border-radius: 12px;
-    height: 214px;
+    height: 400px;
     object-fit: cover;
 }
+
+body{
+    background:url(/video-game-ultimate-marvel-vs-capcom-3-wallpaper-preview.jpg);
+    
+}
+
 .headerStyle{
     background-color: red;
+    text-transform: capitalize;
+    font: bold;
+    height:100px;
+    padding-top: 20px;
+    font-family: 'Anton', sans-serif;
 }
 .container2{
     display:flex;
@@ -15,17 +27,20 @@ img{
     
 }
 .container{
-    max-width: 400px;
+    height:100%;
+    width: 320px;
     margin:0 auto;
     margin-top:10vh;
 }
 
 .card{
-    background-color: white;
+    background-color: black;
     padding:8px;
     border-radius: 12px;
     border:1px solid #BACDD8;
     transition: 0.5s ease-in-out;
+
+     
 }
 .card:hover{
     transform: translateY(35px)
@@ -44,13 +59,16 @@ color: #788697;
 }
 
 .name{
+    color: white;
     font-size: 24px;
     font-weight: 600;
     margin-top: 16px;
+    
 }
 
 p{
-    font-size: 14px;
-    color: #7F8C9B;
-    line-height: 150%;
+    font-size: 20px;
+    color: white;
+    line-height: 100%;
+    overflow: hidden;
 }
