@@ -75,5 +75,16 @@ opacity: 0;
 .card:hover .info {
     opacity: 1;
     transform:translateY(0px);
-    
+
+}
+
+.card .info h2{
+    margin: 0;
+}
+
+.card .info p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
 }
